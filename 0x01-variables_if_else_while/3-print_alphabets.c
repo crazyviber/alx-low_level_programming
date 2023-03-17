@@ -12,9 +12,7 @@ int main(void)
 
 	for (letter = 'a'; letter <= 'z'; letter++)
 		putchar(letter);
-
-	putchar('\n');
-/* print lowercase letters */
+/* print Uppercase letters */
 	for (letter = 'A'; letter <= 'Z'; letter++)
 		putchar(letter);
 
