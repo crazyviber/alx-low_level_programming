@@ -2,7 +2,7 @@
 
 /*
  * main - main function
- * _putchar - print
+ * _putchar: print
  * Return: always 0
  *
  */
