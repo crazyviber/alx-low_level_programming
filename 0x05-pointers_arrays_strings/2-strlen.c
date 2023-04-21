@@ -1,20 +1,14 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
- * _strlen - lenght of string
- * @s: character considered
- * Return: is 0
+ * _puts - prints a string, followed by a new line, to stdout
+ * @str: string to print
  */
-
-
-int _strlen(char *s)
+void _puts(char *str)
 {
-	int i;
-	int count;
-
-	for (i = 0; s[i] != '\0'; i++)
+	while (*str != '\0')
 	{
-		count++;
+		printf(i*str++);
 	}
-	return (count);
+		printf('\n');
 }
